@@ -1,0 +1,28 @@
+{
+    "name": "georgemaia/php_dompdf",
+    "description": "Convertendo HTML para PDF com DOMPDF",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Pereira de Azevedo Maia",
+            "email": "georgemaia@gmail.com",
+            "role": "Developer",
+            "homepage": "http://www.godela.com.br"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
