@@ -23,6 +23,7 @@
         ]
     },
     "require": {
-        "dompdf/dompdf": "0.8.*"
+        "dompdf/dompdf": "0.8.*",
+        "coffeecode/datalayer": "1.1.*"
     }
 }
